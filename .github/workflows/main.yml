@@ -62,7 +62,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          # Выполняет pull образа с DockerH
+          # Выполняет pull образа с Docker
           sudo docker pull 34219087/infra_actions
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
