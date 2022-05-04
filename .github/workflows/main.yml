@@ -49,4 +49,4 @@ jobs:
         uses: docker/build-push-action@v2 # Выполняет push образа в DockerHub 
         with:
           push: true
-          tags: vitmoro/infra_actions:latest
+          tags: 34219087/infra_actions:latest
